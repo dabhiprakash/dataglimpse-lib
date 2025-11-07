@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'dataglimpse/lib',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '2ef603910e92446a1f82098b988fb63672b1d908',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'dataglimpse/lib' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '2ef603910e92446a1f82098b988fb63672b1d908',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
