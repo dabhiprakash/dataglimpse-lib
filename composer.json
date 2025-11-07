@@ -1,0 +1,25 @@
+{
+    "name": "dataglimpse/lib",
+    "description": "A versatile PHP utility library designed to enhance data handling and processing capabilities within applications. It provides a collection of robust tools for various tasks, focusing on reliability and consistency in data manipulation.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dataglimpse\\Lib\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Dataglimpse\\Lib\\Installer::run"
+        ]
+    },
+    "authors": [
+        {
+            "name": "dabhi prakash",
+            "email": "dabhiprakash32244@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
